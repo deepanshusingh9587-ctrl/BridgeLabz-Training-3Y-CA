@@ -1,0 +1,130 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+/* Body */
+
+body {
+
+    margin: 0;
+
+    padding: 35px;
+
+    background-color: #dfe7ef;
+
+    font-family: Georgia, serif;
+
+}
+
+
+/* Magazine Container */
+
+.magazine {
+
+    max-width: 1100px;
+
+    margin: auto;
+
+    background-color: white;
+
+    padding: 40px;
+
+
+    /* Multiple Columns */
+
+    column-count: 3;
+
+    column-gap: 35px;
+
+
+    /* Separator Line */
+
+    column-rule: 1px solid #dddddd;
+
+
+    text-align: justify;
+
+}
+
+
+/* Main Heading */
+
+.magazine h1 {
+
+    column-span: all;
+
+    font-size: 3rem;
+
+    text-align: center;
+
+    border-bottom: 3px solid #222222;
+
+    padding-bottom: 15px;
+
+}
+
+
+/* Paragraph */
+
+.magazine p {
+
+    font-size: 1.05rem;
+
+    line-height: 1.7;
+
+    margin-top: 0;
+
+}
+
+
+/* Image */
+
+.magazine img {
+
+    float: left;
+
+    width: 100%;
+
+    margin-bottom: 15px;
+
+    border-radius: 8px;
+
+}
+
+
+/* Tablet Responsive */
+
+@media (max-width: 800px) {
+
+    .magazine {
+
+        column-count: 2;
+
+    }
+
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 500px) {
+
+    body {
+
+        padding: 15px;
+
+    }
+
+
+    .magazine {
+
+        column-count: 1;
+
+        padding: 20px;
+
+    }
+
+}

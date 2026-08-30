@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* Body */
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    color: #222;
+
+}
+
+
+/* Header */
+
+header {
+
+    background-color: #333;
+
+    color: white;
+
+    padding: 30px;
+
+    text-align: center;
+
+}
+
+
+/* Navigation */
+
+nav {
+
+    margin-top: 15px;
+
+}
+
+
+nav a {
+
+    color: white;
+
+    text-decoration: none;
+
+    margin: 15px;
+
+}
+
+
+/* Main */
+
+main {
+
+    width: 100%;
+
+}
+
+
+/* All Sections */
+
+section {
+
+    width: 100%;
+
+    min-height: 400px;
+
+    padding: 70px 10%;
+
+    margin: 20px 0;
+
+    border: 2px solid white;
+
+}
+
+
+/* Heading */
+
+h2 {
+
+    font-size: 2.5rem;
+
+    font-weight: 800;
+
+}
+
+
+/* Paragraph */
+
+p {
+
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+
+}
+
+
+/* About Section */
+/* Linear Gradient */
+
+.about {
+
+    background:
+    linear-gradient(
+        120deg,
+        #ffd6a5,
+        #ffffff
+    );
+
+    background-attachment: fixed;
+
+}
+
+
+/* Places Section */
+/* Radial Gradient */
+
+.places {
+
+    background:
+    radial-gradient(
+        circle,
+        #ffe8cc,
+        #d8f3dc,
+        #ffffff
+    );
+
+    background-attachment: fixed;
+
+}
+
+
+/* Culture Section */
+
+.culture {
+
+    background-color: #cdeffd;
+
+}
+
+
+/* Different Heading Style */
+
+.culture h2 {
+
+    font-size: 3rem;
+
+    font-weight: bold;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+}
