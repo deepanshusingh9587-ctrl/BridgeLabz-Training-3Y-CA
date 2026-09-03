@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+
+header {
+    grid-column: 1 / -1;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+aside {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+aside nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.box {
+    padding: 50px 20px;
+    border: 1px solid black;
+    transition: 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px gray;
+}
+
+.box1 {
+    grid-column: span 2;
+}
