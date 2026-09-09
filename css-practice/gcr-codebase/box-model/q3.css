@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    min-height: 600px;
+}
+
+section {
+    height: 300px;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 18px;
+}
+
+.linear {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    background-attachment: fixed;
+}
+
+.radial {
+    background: radial-gradient(circle, #ff9966, #ff5e62);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222;
+}
