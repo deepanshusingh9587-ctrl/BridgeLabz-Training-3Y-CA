@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+.principles {
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+article {
+    padding: 25px;
+    background-color: white;
+    transition: 0.4s;
+}
+
+article:hover {
+    background: linear-gradient(135deg, #444, #999);
+    color: white;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    color: #222;
+}
+
+@media (max-width: 600px) {
+
+    .principles {
+        grid-template-columns: 1fr;
+    }
+}

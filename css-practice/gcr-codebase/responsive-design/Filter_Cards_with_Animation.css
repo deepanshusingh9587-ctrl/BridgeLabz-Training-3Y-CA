@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.profiles {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    gap: 25px;
+}
+
+.profile-card {
+    width: 33.33%;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    animation: fadeIn 1s ease;
+    transition: transform 0.4s;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    transition: filter 0.4s;
+}
+
+.gray {
+    filter: grayscale(100%);
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+}
+
+.profile-card:hover img {
+    filter: none;
+}
+
+.profile-card div {
+    padding: 15px;
+}
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .profiles {
+        flex-direction: column;
+    }
+
+    .profile-card {
+        width: 100%;
+    }
+}
