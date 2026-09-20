@@ -1,0 +1,24 @@
+.carousel img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.progress {
+    height: 25px;
+}
+
+@media (max-width: 600px) {
+
+    .carousel img {
+        height: 280px;
+    }
+
+    .carousel-caption {
+        font-size: 12px;
+    }
+}

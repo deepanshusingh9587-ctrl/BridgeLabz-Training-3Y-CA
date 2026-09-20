@@ -1,0 +1,9 @@
+body {
+    background-color: white;
+}
+
+article {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}

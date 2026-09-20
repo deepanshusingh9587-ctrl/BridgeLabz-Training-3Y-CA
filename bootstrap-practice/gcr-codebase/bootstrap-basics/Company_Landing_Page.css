@@ -1,0 +1,13 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.hero {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero img {
+    max-width: 100%;
+}
