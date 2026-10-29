@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <style>
+        body { font-family: Arial; max-width: 400px; margin: 30px auto; }
+        input { display: block; width: 100%; padding: 8px; margin: 8px 0; box-sizing: border-box; }
+        .valid { border: 2px solid green; }
+        .invalid { border: 2px solid red; }
+        #message { color: red; }
+    </style>
+</head>
+<body>
+    <h2>Student Registration</h2>
+
+    <form id="studentForm" novalidate>
+        <input id="name" placeholder="Name">
+        <input id="email" placeholder="Email">
+        <input id="phone" placeholder="10-digit Phone">
+        <input id="password" type="password" placeholder="Password">
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+    <script src="Q2_StudentFormValidator.js"></script>
+</body>
+</html>
