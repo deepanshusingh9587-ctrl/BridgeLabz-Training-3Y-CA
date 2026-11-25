@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Highlight</title>
+
+    <style>
+        .product {
+            border: 1px solid gray;
+            padding: 15px;
+            margin: 10px;
+            width: 220px;
+            display: inline-block;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        .discount {
+            border: 2px solid green;
+        }
+
+        .selected {
+            color: red;
+            font-weight: bold;
+        }
+
+        .details {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Online Product Store</h1>
+    </header>
+
+    <main>
+        <section id="productList">
+
+            <article class="product" data-stock="available">
+                <h3>Laptop</h3>
+                <p>Price: Rs. 50000</p>
+                <p class="details">RAM: 8GB, Storage: 512GB SSD</p>
+                <button class="favorite">♥ Favorite</button>
+            </article>
+
+            <article class="product" data-stock="available" data-discount="yes">
+                <h3>Mobile</h3>
+                <p>Price: Rs. 20000</p>
+                <p class="details">RAM: 8GB, Storage: 128GB</p>
+                <button class="favorite">♥ Favorite</button>
+            </article>
+
+            <article class="product" data-stock="out">
+                <h3>Headphones</h3>
+                <p>Price: Rs. 1500</p>
+                <p class="details">Wireless headphones with microphone</p>
+                <button class="favorite">♥ Favorite</button>
+            </article>
+
+            <article class="product" data-stock="available" data-discount="yes">
+                <h3>Smart Watch</h3>
+                <p>Price: Rs. 3000</p>
+                <p class="details">Fitness tracking and notifications</p>
+                <button class="favorite">♥ Favorite</button>
+            </article>
+
+            <article class="product" data-stock="available">
+                <h3>Keyboard</h3>
+                <p>Price: Rs. 1000</p>
+                <p class="details">USB keyboard for computer</p>
+                <button class="favorite">♥ Favorite</button>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Online Store</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q2_ProductHighlight.js"></script>
+</body>
+</html>

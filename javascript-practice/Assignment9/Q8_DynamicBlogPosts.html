@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Blog Posts</title>
+
+    <style>
+        .post {
+            border: 1px solid gray;
+            padding: 12px;
+            margin: 10px;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        .tag {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Blog Admin Panel</h1>
+    </header>
+
+    <main>
+        <section>
+            <button id="addPost">Add New Post</button>
+            <button id="featuredPost">Prepend Featured Post</button>
+            <button id="removePost">Remove Last Post</button>
+            <button id="addTag">Add Tags</button>
+            <button id="highlightPost">Highlight Posts</button>
+
+            <div id="postList">
+
+                <article class="post">
+                    <h2>Learning JavaScript</h2>
+                    <p>JavaScript is useful for web development.</p>
+                </article>
+
+                <article class="post">
+                    <h2>Technology Updates</h2>
+                    <p>Latest technology news and updates.</p>
+                </article>
+
+                <article class="post">
+                    <h2>Web Development</h2>
+                    <p>Learn HTML, CSS and JavaScript.</p>
+                </article>
+
+                <article class="post">
+                    <h2>Programming Tips</h2>
+                    <p>Improve your programming skills.</p>
+                </article>
+
+                <article class="post">
+                    <h2>Artificial Intelligence</h2>
+                    <p>Explore new AI technologies.</p>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Blog Management System</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q8_DynamicBlogPosts.js"></script>
+</body>
+</html>

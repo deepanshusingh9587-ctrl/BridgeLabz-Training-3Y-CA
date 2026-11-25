@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>User Registration</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Create Account</h2>
+
+            <form id="registrationForm">
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+                    <p id="nameError"></p>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email">
+                    <p id="emailError"></p>
+                </div>
+
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password">
+                    <p id="passwordError"></p>
+                </div>
+
+                <button type="submit">Register</button>
+
+            </form>
+
+            <p id="successMessage"></p>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Registration Page</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q10_RegistrationValidation.js"></script>
+</body>
+</html>

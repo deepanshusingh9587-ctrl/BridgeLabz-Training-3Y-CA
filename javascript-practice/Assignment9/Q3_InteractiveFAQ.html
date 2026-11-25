@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive FAQ</title>
+
+    <style>
+        .faq-item {
+            border: 1px solid gray;
+            padding: 12px;
+            margin: 10px;
+        }
+
+        .answer {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Frequently Asked Questions</h1>
+    </header>
+
+    <main>
+        <section id="faqList">
+
+            <article class="faq-item">
+                <h3 class="question">What is JavaScript?</h3>
+                <p class="answer">JavaScript is a programming language used to make web pages interactive.</p>
+                <input type="text" placeholder="Write your question">
+            </article>
+
+            <article class="faq-item">
+                <h3 class="question">What is HTML?</h3>
+                <p class="answer">HTML is used to structure web pages.</p>
+                <input type="text" placeholder="Write your question">
+            </article>
+
+            <article class="faq-item">
+                <h3 class="question">What is CSS?</h3>
+                <p class="answer">CSS is used to style web pages.</p>
+                <input type="text" placeholder="Write your question">
+            </article>
+
+            <article class="faq-item">
+                <h3 class="question">What is jQuery?</h3>
+                <p class="answer">jQuery is a JavaScript library.</p>
+                <input type="text" placeholder="Write your question">
+            </article>
+
+            <article class="faq-item">
+                <h3 class="question">What is DOM?</h3>
+                <p class="answer">DOM represents the structure of an HTML document.</p>
+                <input type="text" placeholder="Write your question">
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>FAQ Section</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q3_InteractiveFAQ.js"></script>
+</body>
+</html>

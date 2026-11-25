@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Directory</title>
+
+    <style>
+        .department {
+            border: 1px solid gray;
+            padding: 15px;
+            margin: 15px;
+        }
+
+        .employee {
+            padding: 10px;
+            margin: 5px;
+            background-color: #eeeeee;
+            cursor: pointer;
+        }
+
+        .contact {
+            display: none;
+            color: blue;
+        }
+
+        .highlight {
+            background-color: lightyellow;
+        }
+
+        .selected {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Team Members Directory</h1>
+    </header>
+
+    <main>
+
+        <section id="teamDirectory">
+
+            <article class="department">
+                <h2 class="departmentName">IT Department</h2>
+
+                <div class="team">
+
+                    <div class="employee manager">
+                        <h3>Rahul - Manager</h3>
+                    </div>
+
+                    <div class="employee">
+                        <h3>Amit - Developer</h3>
+                    </div>
+                    <p class="contact">Email: amit@example.com</p>
+
+                    <div class="employee">
+                        <h3>Priya - Designer</h3>
+                    </div>
+                    <p class="contact">Email: priya@example.com</p>
+
+                    <div class="employee">
+                        <h3>Neha - Tester</h3>
+                    </div>
+                    <p class="contact">Email: neha@example.com</p>
+
+                </div>
+            </article>
+
+            <article class="department">
+                <h2 class="departmentName">HR Department</h2>
+
+                <div class="team">
+
+                    <div class="employee manager">
+                        <h3>Rohit - Manager</h3>
+                    </div>
+
+                    <div class="employee">
+                        <h3>Simran - HR Executive</h3>
+                    </div>
+                    <p class="contact">Email: simran@example.com</p>
+
+                    <div class="employee">
+                        <h3>Karan - Recruiter</h3>
+                    </div>
+                    <p class="contact">Email: karan@example.com</p>
+
+                </div>
+            </article>
+
+        </section>
+
+        <button id="randomEmployee">Select Random Employee</button>
+        <button id="toggleTeam">Collapse/Expand IT Team</button>
+
+    </main>
+
+    <footer>
+        <p>Company Team Directory</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q5_TeamDirectory.js"></script>
+</body>
+</html>

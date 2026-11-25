@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Subscription</title>
+    <style>
+        .topic {
+            padding: 10px;
+            margin: 8px;
+            border: 1px solid gray;
+            width: 200px;
+        }
+
+        .active {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Event Subscription Panel</h1>
+    </header>
+
+    <main>
+        <section>
+            <button id="subscribe">Subscribe</button>
+            <button id="unsubscribe">Unsubscribe</button>
+
+            <h2>Subscription Topics</h2>
+
+            <div id="topicList">
+                <button class="topic">Technology</button>
+                <button class="topic">Sports</button>
+                <button class="topic">Education</button>
+                <button class="topic">Business</button>
+                <button class="topic">Entertainment</button>
+            </div>
+
+            <button id="addTopic">Add New Topic</button>
+            <button id="removeTopic">Remove Last Topic</button>
+
+            <div id="message"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Manage Your Notifications</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q6_EventSubscription.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Offers</title>
+
+    <style>
+        .banner {
+            padding: 25px;
+            margin: 10px;
+            background-color: lightblue;
+            border: 1px solid gray;
+        }
+
+        #banner2 {
+            background-color: lightyellow;
+        }
+
+        #banner3 {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Special Offers</h1>
+    </header>
+
+    <main>
+        <section id="bannerSection">
+
+            <article class="banner">
+                <h2>Offer 1</h2>
+                <p>Get 10% discount on selected products.</p>
+            </article>
+
+            <article class="banner" id="banner2">
+                <h2>Offer 2</h2>
+                <p>Buy two products and get a special gift.</p>
+            </article>
+
+            <article class="banner" id="banner3">
+                <h2>Offer 3</h2>
+                <p>Enjoy free delivery on your order.</p>
+            </article>
+
+        </section>
+
+        <section>
+            <button id="hideBanner">Hide First Banner</button>
+            <button id="showBanners">Show Banners</button>
+            <button id="slideUp">Slide Up</button>
+            <button id="slideDown">Slide Down</button>
+            <button id="fadeOut">Fade Out</button>
+            <button id="fadeIn">Fade In</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Limited Time Offers</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="Q4_SpecialOfferBanner.js"></script>
+</body>
+</html>

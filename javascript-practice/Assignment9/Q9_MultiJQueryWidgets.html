@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-jQuery Dashboard</title>
+</head>
+<body>
+
+    <header>
+        <h1>Dashboard Widgets</h1>
+    </header>
+
+    <main>
+
+        <section id="carousel">
+            <h2>Carousel</h2>
+
+            <div class="slide">Welcome to Dashboard</div>
+            <div class="slide" style="display:none;">Latest Updates</div>
+            <div class="slide" style="display:none;">New Features</div>
+
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+        </section>
+
+        <section id="widgets">
+            <h2>Dashboard Widgets</h2>
+
+            <article class="widget" title="This is the Sales Widget">
+                Sales Widget
+            </article>
+
+            <article class="widget" title="This is the Users Widget">
+                Users Widget
+            </article>
+
+            <article class="widget" title="This is the Orders Widget">
+                Orders Widget
+            </article>
+        </section>
+
+        <button id="notificationButton">Show Notification</button>
+
+        <div id="modal" style="display:none;">
+            <h2>Notification</h2>
+            <p>You have a new dashboard notification.</p>
+            <button id="closeModal">Close</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Dashboard Application</p>
+    </footer>
+
+    <!-- First jQuery version -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Save first version and release the $ variable -->
+    <script>
+        var jqFirst = jQuery.noConflict();
+    </script>
+
+    <!-- Second jQuery version -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Save second version and release the $ variable -->
+    <script>
+        var jqSecond = jQuery.noConflict();
+    </script>
+
+    <script src="Q9_MultiJQueryWidgets.js"></script>
+
+</body>
+</html>
