@@ -1,0 +1,9 @@
+{
+  "products": [
+    { "id": "1", "name": "Wireless Mouse", "price": 599, "image": "https://via.placeholder.com/80?text=Mouse" },
+    { "id": "2", "name": "Mechanical Keyboard", "price": 2499, "image": "https://via.placeholder.com/80?text=Keyboard" },
+    { "id": "3", "name": "USB-C Hub", "price": 1299, "image": "https://via.placeholder.com/80?text=USB+Hub" },
+    { "id": "4", "name": "Laptop Stand", "price": 899, "image": "https://via.placeholder.com/80?text=Stand" },
+    { "id": "5", "name": "Bluetooth Earbuds", "price": 1799, "image": "https://via.placeholder.com/80?text=Earbuds" }
+  ]
+}

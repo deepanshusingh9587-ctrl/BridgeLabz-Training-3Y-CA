@@ -1,0 +1,7 @@
+{
+  "projects": [
+    { "id": "1", "name": "Hotel & Resort Booking Module", "status": "In Progress" },
+    { "id": "2", "name": "Campus Leave Portal", "status": "Completed" },
+    { "id": "3", "name": "DSA Practice Tracker", "status": "Active" }
+  ]
+}

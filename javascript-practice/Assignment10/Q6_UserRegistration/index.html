@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q6 - User Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    form { max-width: 380px; display: flex; flex-direction: column; gap: 10px; }
+    input, select, button { padding: 8px; font-size: 14px; }
+    #feedback { font-weight: bold; margin-top: 10px; }
+    .error { color: red; }
+    .success { color: green; }
+    table { border-collapse: collapse; width: 520px; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+  </style>
+</head>
+<body>
+
+  <h2>User Registration</h2>
+  <form id="regForm">
+    <input type="text" id="nameInput" placeholder="Full Name">
+    <input type="email" id="emailInput" placeholder="Email Address">
+    <select id="roleInput">
+      <option value="">Select Role</option>
+      <option value="Student">Student</option>
+      <option value="Developer">Developer</option>
+      <option value="Manager">Manager</option>
+    </select>
+    <button type="submit">Register User</button>
+  </form>
+
+  <p id="feedback"></p>
+
+  <h3>Registered Users</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Role</th>
+      </tr>
+    </thead>
+    <tbody id="usersTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>

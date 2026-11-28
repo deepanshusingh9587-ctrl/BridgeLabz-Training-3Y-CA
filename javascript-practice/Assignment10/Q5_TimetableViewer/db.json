@@ -1,0 +1,10 @@
+{
+  "timetable": [
+    { "id": "1", "day": "Monday", "time": "09:00 AM", "subject": "Operating Systems", "room": "CS-101" },
+    { "id": "2", "day": "Monday", "time": "11:00 AM", "subject": "Data Structures & Algorithms", "room": "CS-102" },
+    { "id": "3", "day": "Tuesday", "time": "10:00 AM", "subject": "Object-Oriented Programming (Java)", "room": "Lab-2" },
+    { "id": "4", "day": "Wednesday", "time": "09:30 AM", "subject": "Discrete Probability", "room": "MH-204" },
+    { "id": "5", "day": "Thursday", "time": "01:00 PM", "subject": "Environmental Engineering", "room": "CV-105" },
+    { "id": "6", "day": "Friday", "time": "11:30 AM", "subject": "Material Science", "room": "ME-108" }
+  ]
+}

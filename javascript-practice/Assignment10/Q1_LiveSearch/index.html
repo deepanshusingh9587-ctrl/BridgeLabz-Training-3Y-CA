@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q1 - Live Product Search</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    input { padding: 8px; width: 300px; font-size: 16px; }
+    #loading { display: none; color: blue; margin-top: 10px; }
+    .product-card { display: flex; align-items: center; gap: 15px; border: 1px solid #ccc; padding: 10px; margin-top: 10px; width: 350px; }
+  </style>
+</head>
+<body>
+
+  <h2>Live Product Search</h2>
+  <input type="text" id="searchBox" placeholder="Type product name...">
+  <p id="loading">Loading...</p>
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
